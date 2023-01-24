@@ -183,6 +183,9 @@ h4{text-align: center;}
 }
 
 @media only screen and (max-width: 420px) {
+  *{
+    min-width: none;
+  }
   .socialmedia{
     background: white;
     padding-top: 1.5rem;
